@@ -1,0 +1,3764 @@
+/*--------------------- html and body -------------------------*/
+html,body{
+  height: 100%;
+  margin:0;
+  /*position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+}
+/*---------------------- wrapper : the whole container ----------*/
+#wrapper {
+  margin: auto;
+  width: 80%;
+  padding: 0;
+  min-height: 100%;
+}
+/*-------------------------container : for home page ----------------*/
+#container{
+  /*background-color: lightblue;*/
+  background-image: url("17.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 840px;
+  border: 1px solid black;
+
+}
+/*------------------------------- to keep the nav bar intact --------------*/
+#my_head header::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_head header {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  font-weight: bold;
+  font-size: 95%;
+}
+ 
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_head nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+/*-------------------------------- shubham shankar-----------------------*/
+nav.name{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold; 
+}
+
+nav.name ul{
+  float: left;
+}
+
+nav.name li{
+  right:30px;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+
+/*--------------------------- nav bar : nav icon ---------------------------*/
+
+nav.nav_bar ul{
+  float: right;
+  font-size:14px;
+}
+
+nav.nav_bar ul li{
+  left:0px;
+  display: inline-block;
+  margin-right: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+
+/*-------------------------------my_head ends --------------------------------*/
+/*--------------------------- my_main starts here ------------------------------*/
+#my_main{
+  /*text-align: center;*/
+  margin-left:auto;
+  margin-right: auto;
+
+}
+/*---------------- h1 inside welcome ------------------------------*/
+#my_main .welcome h1{
+  color: #777777;
+  padding-top: 70px;
+  font-family: "Rajdhani";
+  font-weight: bold;
+  font-size: 4.5em;
+  text-align: center;
+}
+
+/*----------------------- second para inside welcome ---------------------*/
+#my_main .second_para pre{
+  color: #777777;
+  padding-left: 50px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 15pt;
+  padding-bottom: 20px;
+}
+
+/*---------------------------- button --------------------------------------*/
+#my_main .my_button{
+  text-align: center;
+}
+
+#my_main .my_button button{
+  background: linear-gradient(#3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  color: #222222;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-size: 200%;
+  border-color: #292F33;
+  padding: 0px 35px;
+}
+/*------------------------------------ my_main ends here -----------------------*/
+/*--------------------------entire container ends here----------------------------*/
+
+
+/*----------------------- my_skills.html begins here --------------------------*/
+/*------------------- skill start from here -------------------------------------*/
+#skills{
+  background-color: #ffffff;
+  /*background-color: midnightblue;*/
+  margin: auto;
+  width: auto;
+  height: 840px;
+  padding: 0;
+}
+/*------------------------------- skill_body  starts here ----------------------*/
+* {
+  box-sizing: border-box;
+}
+
+/*--------------Create two equal columns that floats next to each other------------- */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 800px; 
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 800px;
+  display: grid;
+  grid-template-rows: auto;
+}
+/*-------------------------------we have 2 columnn col1 and col2
+                              and now col2 has 2 row--------------------------
+*/
+.column2 .row1{
+  width: 100%;
+  padding: 0px;
+}
+
+.column2 .row2{
+  width: 100%;
+  padding: 0px;
+  height: 93%;
+    
+}
+
+/* ----------------Clear floats after the columns -----------------------*/
+#skill_body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----------------- elements in column 1 : h2 , pre , image -----------------*/
+#skill_body .column1 h2{
+  font-family: rajdhani;
+  font-size: 49px;
+  text-align: start;
+  color: #777777;
+  margin: 0;
+  padding-left: 144px;
+}
+
+#skill_body .column1 pre{
+  color: #777777;
+  font-size: 12PX;
+  font-family: roboto;
+  margin-left: -7%;
+  text-align: center;
+}
+
+#skill_body .column1 img{
+  width: 400px;
+  margin-left: 50px;
+  height: 520px;
+  padding-top: 17px;
+  margin-top: 5px;
+}
+
+/*------------------------elements inside column2 row1 ---------------------*/
+
+.r_column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 52%;
+}
+.r_column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 52%;
+}
+
+.r_column3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 40%;
+}
+
+.r_column4 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 40%;
+}
+
+
+
+/* --------------------------Clear floats after the columns---------------- */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  /*----------------------row 1 r_column1 element --------------------- */
+
+.r_column1 p{
+  color: #777777;
+  font-family: roboto;
+  text-align: left;
+}
+.r_column1 pre{
+  color: dimgrey;
+  text-align: left;
+}
+
+
+/*----------------------row 1 r_column2 element --------------------- */
+
+.r_column2 p{
+  color: #777777;
+  font-family: roboto;
+  text-align: left;
+}
+.r_column2 pre{
+  color: #777777;
+  font-family: roboto;
+  text-align: left;
+}
+
+
+/*----------------------row 1 r_column3 element --------------------- */
+
+.r_column3 p{
+  color: #777777;
+  font-family: roboto;
+  text-align: left;
+}
+.r_column3 pre{
+  color: #777777;
+  font-family: roboto;
+  text-align: left;
+}
+/*----------------------row 1 r_column4 element --------------------- */
+
+.r_column4 p{
+  color: #777777;
+  font-family: roboto;
+  text-align: left;
+}
+.r_column4 pre{
+  color: #777777;
+  font-family: roboto;
+  text-align: left;
+}
+
+/*----------------------- row 1 ends here -----------------------*/
+/*--------------------------row 2 begins--------------------------*/
+
+/*--------------------row2 column 2 for elements -----------------*/
+
+.r2_column img {
+  float: right;
+  width: 185.3px;
+  margin-top: -2%;
+  margin-right:-13px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-right: 7%;
+}
+
+.row2 p{
+  text-align: left;
+  padding: 0;
+  margin-top: 15%;
+  font-size: 23px;
+}
+.row2 .Smart_Digital_Solution{
+  color: #777777;
+  font-family: rajdhani;
+}  
+.row2 .A_FRONT-END_Developer{
+  color: #777777;
+  font-family: roboto;
+  font-size: 80%;
+}
+
+/*----------------------row2 ends ------------------------------------*/
+/*--------------------------------col2 ends-----------------------*/
+/*------------------------------skill body ends -------------------------*/
+
+/*---------------------work beigins here---------------------------*/
+#work{
+  /*background-color: #191970;*/
+  background-color: #ffffff;
+  margin: auto;
+  width: auto;
+  height: 800px;
+  padding: 0;
+}
+
+#hire_body{
+  margin-top: 3%;
+}
+
+.latest_work h1{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 376%;
+  font-family: "rajdhani";
+  margin-top: 0%;
+}
+
+
+.latest_work pre{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 90%;
+  margin-top: -5%;
+  font-family: roboto;
+}
+
+
+.latest_work button{
+  width: 15%;
+  background: linear-gradient(#3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  color: #222222;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-size: 200%;
+  border-color: #292F33;
+  margin-left: 3%;
+  margin-top: 1%;
+  padding: 0px 35px;
+}
+/*--------------------------one huge row has 3 column ----------------------*/
+.wrow{
+  margin-top: 1%;
+}
+
+/*---------------------- column 1 ------------------------------------------*/
+
+/* Create three equal columns that floats next to each other */
+.wrow #column1 {
+  width: 95.33%;
+  padding: 10px;
+  height: 189px;
+  margin-left: 2%; /* Should be removed. Only for demonstration */
+}
+
+
+ /*--------------------- col 1 has row 1 ---------------------------*/
+
+
+.wrow1{
+  margin-top: -0.8%;
+  display: inline-block;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+/*----------------- col1 row 1 col 11 --------------------------------*/
+
+
+/* Create three equal columns that floats next to each other */
+#column11 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+/*------------ col1 row 1 col11 row1a ---------------------------------*/
+
+
+.row1a{
+  margin-top: -1.9%;
+}
+/*------------ col1 row 1 col11 row1a col 1a col 1b---------------------------------*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+#column11 #column1a {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column1a img{
+  width: 102%;
+  margin-top: -9%;
+  margin-left: 8%;
+}
+
+
+
+
+#column11 #column1b {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column1b h2{
+  color: #777777;
+  font-family: rajdhani;
+  margin-left: 39%;
+}
+
+
+#column1b p{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 39%;
+}
+
+
+
+/*-------------------- col 1  ends --------------------------------*/
+
+
+/* Clear floats after the columns */
+.row1a:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*------------------ row1a ends here  ----------------------------*/
+
+/*----------------- col1 row1  col 12 begin --------------------------*/
+
+#column12 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+.row1b{
+  margin-top: -1.9%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column12 #column2a {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+
+#column2a img{
+  width: 80%;
+  margin-top: -6%;
+}
+
+#column2b h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column2b p{
+  color: #777777;
+  font-family: roboto;
+}
+
+
+
+
+
+
+#column12 #column2b {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+
+.row1b:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*----------------- col1 row1  col 13 begin --------------------------*/
+
+#column13 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+
+
+
+.row1c{
+  margin-top: -1.9%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column13 #column3a {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column13 #column3b {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+
+
+
+#column3a img{
+  width: 67%;
+  margin-top: -5%;
+  margin-left: 12%;
+}
+
+#column3b h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column3b p{
+  color: #777777;
+  font-family: roboto;
+}
+
+.row1c:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Clear floats after the columns */
+.wrow1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*----------------------------------- row 1 end ----------------*/
+
+/*--------------- col 2 begins ----------------------------*/
+.wrow #column2 {
+  width: 95.33%;
+  padding: 10px;
+  height: 189px;
+  margin-left: 2%;; /* Should be removed. Only for demonstration */
+}
+
+.wrow2{
+  margin-top: -0.8%;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+#column21 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+
+.row1d{
+  margin-top: -2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column21 #column1d {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column21 #column1e {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+
+#column1d img{
+  width: 67%;
+  margin-top: -5%;
+  margin-left: 0%;
+}
+
+#column1e h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column1e p{
+  color: #777777;
+  font-family: roboto;
+}
+
+
+.row1d:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#column22 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+.row2d{
+  margin-top: -2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column22 #column2d {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column22 #column2e {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+
+#column2d img{
+  width: 70%;
+  margin-top: -5%;
+  margin-left: 5%;
+}
+
+#column2e h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column2e p{
+  color: #777777;
+  font-family: roboto;
+}
+
+
+.row2d:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+#column23 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+.row3d{
+  margin-top: -2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column23 #column3d {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column23 #column3e {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column3d img{
+  width: 60%;
+  margin-top: -5%;
+  margin-left: 16%;
+}
+
+#column3e h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column3e p{
+  color: #777777;
+  font-family: roboto;
+}
+
+
+
+
+
+
+
+.row3d:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Clear floats after the columns */
+.wrow2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*------------------------- row 2 end ---------------------------*/
+
+/*----------------------  row 3 begins -------------------------*/
+.wrow #column3 {
+  width: 95.33%;
+  padding: 10px;
+  height: 189px;
+  margin-left: 2%; /* Should be removed. Only for demonstration */
+}
+
+.wrow3{
+  margin-top: -0.8%;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+#column31 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+.row1c{
+  margin-top: -2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column31 #column1c {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column31 #column1f {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+
+#column1c img{
+  width: 67%;
+  margin-top: -5%;
+  margin-left: -1%;
+}
+
+#column1f h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column1f p{
+  color: #777777;
+  font-family: roboto;
+}
+
+.row1c:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+#column32 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+.row2c{
+  margin-top: -2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column32 #column2c {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column32 #column2f {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column2c img{
+  width: 67%;
+  margin-top: -5%;
+  margin-left: 6%;
+}
+
+#column2f h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column2f p{
+  color: #777777;
+  font-family: roboto;
+}
+
+
+
+.row2c:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#column33 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 184px; /* Should be removed. Only for demonstration */
+}
+
+.row3c{
+  margin-top: -2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#column33 #column3c {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+#column33 #column3f {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 180px; /* Should be removed. Only for demonstration */
+}
+
+
+#column3c img{
+  width: 86%;
+  margin-top: -5%;
+  margin-left: 7%;
+}
+
+#column3f h2{
+  color: #777777;
+  font-family: rajdhani;
+}
+
+
+#column3f p{
+  color: #777777;
+  font-family: roboto;
+}
+
+
+
+.row3c:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Clear floats after the columns */
+.wrow3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*--------------------------- HIRE ME BEGINS ---------------------------*/
+#hire{
+  background-color: #191970;
+  margin: auto;
+  width: auto;
+  height: 840px;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*-------------------------row begins       -------------------------------*/
+.h_row{
+  margin-top: -1%;
+}
+/*---------------------------- 4 column divison----------------*/
+.h_column1 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 240px;
+  list-style: none;
+}
+
+.h_column2 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 240px;
+}
+.h_column3 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 240px;
+  margin-top: 36%;
+}
+.h_column4 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 240px;
+  margin-top: 9%;
+}
+.h_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*-----------------------h.column1 begins---------------------------------*/
+/*-------------------------header begins------------------------------------*/
+.h_column1 h2{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 150%;
+  font-family: "rajdhani";
+  margin-top: -3%;
+}
+
+
+/*-------------------------FOR SKILL Box------------------------------------*/
+.h_column1 .skill_box{
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: 20px;
+  padding-top: 3px;
+  margin-top: -5%;
+}
+/*-------------------------- BAR ------------------------------------*/
+.bar{
+  background: white;
+  display: block;
+  height: 10px;
+  border: 4px solid blue;
+  padding: -2px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  overflow: hidden; 
+  box-shadow: 0 0 10px black;
+  margin-top: -2%;
+  padding-bottom: 3px;
+  margin-bottom: -2%;
+  width: 100%;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  /*background: skyblue;*/
+  background: red;
+}
+
+/*-------------------------- list elements-----------------------------*/
+.skill_box li{
+  margin-bottom: -4%;
+}
+.skill_box li h3{
+  font-size: 15px;
+  color: #777777;
+  font-family: roboto;
+}
+
+.skill_box li p{
+  position: relative;
+  text-align: end;
+  top: -31px;
+  color: #777777;
+  font-family: roboto;
+}
+
+/*------------------animation----------------------------*/
+.html{
+  width: 85%;
+  animation: html 2s;
+}
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+
+.css{
+  width: 75%;
+  animation: css 2s;
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+
+.bootstrap{
+  width: 50%;
+  animation: bootstrap 2s;
+}
+@keyframes bootstrap{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 55%;
+  }
+}
+
+.javascript{
+  width: 70%;
+  animation: javascript 2s;
+}
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+.python{
+  width: 80%;
+  animation: python 2s;
+}
+@keyframes python{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+/*-------------------------col1 ends here---------------------------------*/
+
+/*--------------------- last row of design begin here-------------------*/
+.hobby{
+  margin-top: 6%;
+  height: 131px;
+}
+.hobby h1{
+  margin-left: 3%;
+  color: #777777;
+  font-size: 150%;
+  font-family: "rajdhani";
+  margin-top: 1%;
+}
+
+/*------------------- class design begin here-----------------------------*/
+.hobby .design{
+  margin-top: -5px;
+}
+
+
+
+.hobby .design li{
+  list-style: none;
+  margin: 2px 30px;
+  display: inline;
+  padding: 9px;
+  padding-top: 13px;
+  color: white;
+  border: 2px solid black;
+}
+/*-------------------------- class name begin here --------------------------*/
+.hobby .name{
+  margin-left: 52px;
+  padding-left: 19px;
+  display: inline;
+}
+
+.hobby .name li{
+  display: inline;
+}
+
+.name .col1{
+  font-size: 14px;
+  margin-left: 4px;
+  color: darkslategray;
+
+}
+
+.name .col2{
+  font-size: 13px;
+  margin-left: 70px;
+  color: darkslategray;
+  
+}
+
+.name .col3{
+  font-size: 13px;
+  color: darkslategray;
+  margin-left: 45px;
+  
+}
+
+.name .col4{
+  font-size: 13px;
+  color: darkslategray;
+  margin-left: 64px;
+}
+
+.name .col5{
+  font-size: 13px;
+  color: darkslategray;
+  margin-left: 71px;
+}
+
+.name .col6{
+  font-size: 13px;
+  color: darkslategray;
+  margin-left: 68px;
+}
+
+.name .col7{
+  font-size: 13px;
+  color: darkslategray;
+  margin-left: 64px;
+}
+
+.name .col8{
+  font-size: 13px;
+  color: darkslategray;
+  margin-left: 73px;
+}
+
+.name .col9{
+  font-size: 13px;
+  color: darkslategray;
+  margin-left: 72px;
+}
+/*-------------------------------design column end here-------------------------*/
+
+/*---------------------- column 4 begins here -----------------------------*/
+
+.h_column4 h1{
+  margin-left: 3%;
+  color: #777777;
+  font-size: 150%;
+  font-family: "rajdhani";
+  margin-top: 1%;
+}
+
+
+
+.h_column4 ul{
+  list-style: none;
+  margin-left: -31px;
+  color: dimgrey;
+  padding-top: 0px;
+  font-size: 13px;
+  font-family: roboto;
+}
+
+.k_list li{
+  padding: 5px;
+}
+
+.h_column4 .k_list li:before{
+  content: '✓'; 
+}
+
+.h_column4 .k_list li{
+  float: left;
+  width: 50%;
+}
+
+
+
+
+.h_column4 h2{
+  margin-left: 3%;
+  color: white;
+  font-size: 150%;
+  font-family: "rajdhani";
+  margin-top: 1%;
+}
+
+/*------------------------- h_col2  begins here -------------------------------*/
+.h_column2 h2{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 150%;
+  font-family: "rajdhani";
+  margin-top: -3%;
+}
+
+.h_column2 .rec_class li{
+  list-style: none;
+  padding: 4px 36px 7px 9px;
+  color: white;
+  border: 3px solid black;
+}
+
+
+.rec_class .h2_img{
+  margin-left: -20px;
+  margin-right: 368px;
+}
+
+
+.rec_class .h2_pencil{
+  margin-top: 25px;
+  margin-left: -20px;
+  margin-right: 368px;
+}
+
+
+.rec_class .h2_toolbox{
+  margin-top: 24px;
+  margin-left: -20px;
+  margin-right: 368px;
+}
+
+.h_column2 .award{
+  margin-left: 90px;
+  margin-top: -192px;
+  color: #777777;
+  font-family: roboto;
+  font-size: 17px;
+}
+
+.h_column2 .award2{
+  margin-left: 90px;
+  margin-top: -19px;
+  color: #777777;
+  font-family: roboto;
+  font-size: 12px;
+}
+
+.h_column2 .logo{
+  margin-left: 90px;
+  margin-top: 40px;
+  color: #777777;
+  font-family: roboto;
+  font-size: 13px;
+}
+
+.h_column2 .logo2{
+  margin-left: 90px;
+  margin-top: -13px;
+  color: #777777;
+  font-family: roboto;
+  font-size: 12px;
+}
+
+.h_column2 .web{
+  margin-left: 90px;
+  margin-top: 37px;
+  color: #777777;
+  font-family: roboto;
+  font-size: 13px;
+}
+
+.h_column2 .web2{
+  margin-left: 90px;
+  margin-top: -13px;
+  color: #777777;
+  font-family: roboto;
+  font-size: 12px;
+}
+
+/*--------------- h3 circle  ---------------------------*/
+.h_column3 h2{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 150%;
+  font-family: "rajdhani";
+  margin-top: 3%;
+
+}
+
+.progress-circle {
+  font-size: 20px;
+  margin: 60px;
+  margin-right:3%;
+  margin-top: 10px;
+  position: relative; /*  children can be absolutely positioned */
+  padding: 0;
+  width: 5em;
+  height: 5em;
+  background-color: #F2E9E1; 
+  border-radius: 50%;
+  line-height: 5em;
+  float: left;
+}
+
+.progress-circle:after{
+  border: none;
+  position: absolute;
+  top: 0.35em;
+  left: 0.35em;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  width: 4.3em;
+  height: 4.3em;
+  background-color: white;
+  content: " ";
+}
+
+/* Text inside the control */
+.progress-circle span {
+    position: absolute;
+    line-height: 5em;
+    width: 5em;
+    text-align: center;
+    display: block;
+    color: #777777;
+    z-index: 2;
+    margin-left: 14%;
+    margin-top: 17%;
+    font-size: 54%;
+}
+.left-half-clipper { 
+   /* a round circle */
+   border-radius: 50%;
+   width: 5em;
+   height: 5em;
+   position: absolute; /* needed for clipping */
+   clip: rect(0, 5em, 5em, 2.5em); /* clips the whole left half*/ 
+}
+/* when p>50, don't clip left half*/
+.progress-circle.over50 .left-half-clipper {
+   clip: rect(auto,auto,auto,auto);
+}
+.value-bar {
+   /*This is an overlayed square, that is made round with the border radius,
+   then it is cut to display only the left half, then rotated clockwise
+   to escape the outer clipping path.*/ 
+   position: absolute; /*needed for clipping*/
+   clip: rect(0, 2.5em, 5em, 0);
+   width: 5em;
+   height: 5em;
+   border-radius: 50%;
+   border: 0.45em solid #53777A; /*The border is 0.35 but making it larger removes visual artifacts */
+   /*background-color: #4D642D;*/ /* for debug */
+   box-sizing: border-box;
+  
+}
+/* Progress bar filling the whole right half for values above 50% */
+.progress-circle.over50 .first50-bar {
+   /*Progress bar for the first 50%, filling the whole right half*/
+   position: absolute; /*needed for clipping*/
+   clip: rect(0, 5em, 5em, 2.5em);
+   background-color: #53777A;
+   border-radius: 50%;
+   width: 5em;
+   height: 5em;
+}
+.progress-circle:not(.over50) .first50-bar{ display: none; }
+
+
+
+.progress-circle.p10 .value-bar { transform: rotate(36deg); }
+
+.progress-circle.p14 .value-bar { transform: rotate(50deg); }
+
+.progress-circle.p85 .value-bar { transform: rotate(306deg); }
+
+
+
+
+
+/*----------------- my skills end ---------------------*/
+/*---------------------- my_skills work experience begins ------------------------*/
+.WE h2{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 380%;
+  font-weight: bold;
+  font-family: "rajdhani";
+  margin-top: 2%;
+}
+
+
+.WE pre{
+  margin-left: 4%;
+  color: #777777;
+  font-family: roboto;
+  font-size: 87%;
+  margin-top: -3%; 
+}
+
+
+/*---------------------- first 2 column begin ---------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+.WE_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.WE_row{
+  margin-top: 0%;
+}
+
+.WE_column1 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 175px;
+  border-right: 2px solid #777777;
+  }  
+.WE_column2 {
+  float: left;
+  width: 65%;
+  padding: 10px;
+  height: 200px;
+  padding-left: 15px;
+}
+
+.WE_column1 #line1{
+  font-size: 13px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 36%;
+
+}
+
+.WE_column1 #line2{
+  font-size: 30px;
+  color: #777777;
+  font-family: roboto;
+  margin-top: -14px;
+  margin-left: 35%;
+}
+
+.WE_column1 #line3{
+  font-size: 22px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 65%;
+  margin-top: -13%;
+}
+
+.WE_column1 #line4{
+  font-size: 14px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 52%
+}
+
+.WE_column2 p{
+  color: #777777;
+  font-family: roboto;
+  font-size: 95%;
+}
+
+.WE_column2 pre{
+  color: #777777;
+  font-family: roboto;
+  font-size: 110%;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+#whr{
+  margin-left: 2%;
+  width: 95%;
+  margin-top: 2%;
+}
+/*----------------------- first 2 column end ------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.WE_row1{
+  margin-top: 3%;
+}
+
+/* Clear floats after the columns */
+.WE_row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.WE_column12 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 175px;
+  border-right: 2px solid #777777;
+  }  
+
+.WE_column22 {
+  float: left;
+  width: 65%;
+  padding: 7px;
+  height: 190px;
+  padding-left: 15px;
+}
+
+.WE_column12 #line1{
+  font-size: 13px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 59%;
+
+}
+
+.WE_column12 #line2{
+  font-size: 30px;
+  color: #777777;
+  font-family: roboto;
+  margin-top: -14px;
+  margin-left: 54%;
+}
+
+.WE_column12 #line3{
+  font-size: 26px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 30%;
+}
+
+.WE_column12 #line4{
+  font-size: 17px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 60%;
+  margin-top: -5%;;
+}
+
+.WE_column22 p{
+  color: #777777;
+  font-family: roboto;
+  font-size: 95%;
+}
+
+.WE_column22 pre{
+  color: #777777;
+  font-family: roboto;
+  font-size: 112%;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+#whr1{
+  margin-left: 2%;
+  width: 95%;
+  margin-top: -1%;
+}
+
+/*----------------------------- end of col 2 --------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.WE_row2{
+  margin-top: 1%;
+}
+
+/* Clear floats after the columns */
+.WE_row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.WE_column13 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 166px;
+  border-right: 2px solid #777777;
+  }  
+.WE_column23 {
+  float: left;
+  width: 65%;
+  padding: 10px;
+  height: 200px;
+  padding-left: 15px;
+}
+
+.WE_column13 #line1{
+  font-size: 13px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 66%;
+
+}
+
+.WE_column13 #line2{
+  font-size: 29px;
+  color: #777777;
+  font-family: roboto;
+  margin-top: -14px;
+  margin-left: 59%;
+}
+
+.WE_column13 #line3{
+ font-size: 14px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 45%;
+  margin-top: -4%;
+}
+
+.WE_column13 #line4{
+  font-size: 17px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 80%;
+}
+
+.WE_column23 p{
+  color: #777777;
+  font-family: roboto;
+  font-size: 95%;
+}
+
+.WE_column23 pre{
+  color: #777777;
+  font-family: roboto;
+  font-size: 112%;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+/*-------------------------- blog starts here -----------------*/
+.blog{
+  margin-top: -13%;
+}
+.blog h2{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 380%;
+  font-weight: bold;
+  font-family: "rajdhani";
+  margin-top: 14%;
+}
+
+
+.blog pre{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 87%;
+  margin-top: -4%; 
+}
+/*------------------ heading ends -------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.blog_row{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.blog_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog_column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 190px;
+  border-right: 3px solid #777777;
+}  
+
+.blog_column1 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+
+.blog_column2 #c1{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column2 pre{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  margin-top: 0%;;
+}
+
+
+.blog_column2 #c2{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column2 i{
+  color: #777777;
+  margin-left: 2%;
+  font-size: 12px;
+  padding-top: 2%;
+}
+
+
+/*----------------------- first column ends --------------------*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+.blog_row1{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.blog_row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog_column11 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 190px;
+  border-right: 3px solid #777777;
+}  
+
+.blog_column11 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.blog_column21 #c11{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column21 pre{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  font-size: 13px;
+  margin-top: 0%;;
+}
+
+
+.blog_column21 #c21{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column21 i{
+  color: #777777;
+  margin-left: 2%;
+  font-size: 12px;
+  padding-top: 2%;
+}
+/*--------------------------------- blog_row 1 -------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.blog_row2{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.blog_row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog_column12 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 164px;
+  border-right: 3px solid #777777;
+}  
+
+.blog_column12 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.blog_column22 #c12{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column22 pre{
+  color: #777777;
+  font-family: roboto;;
+  margin-left: 28%;
+  font-size: 13px;
+  margin-top: 0%;;
+}
+
+
+.blog_column22 #c22{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column22 i{
+  color: #777777;
+  margin-left: 2%;
+  font-size: 12px;
+  padding-top: 1%;
+}
+/*--------------------- blog 2 ends -----------------*/
+/*----------------------- blog 3 ends -----------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.blog_row3{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.blog_row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog_column13 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 190px;
+  border-right: 3px solid #777777;
+}  
+
+.blog_column13 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.blog_column31 #c11{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column31 pre{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  font-size: 13px;
+  margin-top: 0%;;
+}
+
+
+.blog_column31 #c21{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column31 i{
+  color: #777777;
+  margin-left: 2%;
+  font-size: 12px;
+  padding-top: 2%;
+}
+/*---------------------- blog 3 ends ------------------------*/
+/*------------------------ blog 4 begins ------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.blog_row4{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.blog_row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog_column14 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 190px;
+  border-right: 3px solid #777777;
+}  
+
+.blog_column14 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.blog_column41 #c11{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column41 pre{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  font-size: 13px;
+  margin-top: 0%;;
+}
+
+
+.blog_column41 #c21{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column41 i{
+  color: #777777;
+  margin-left: 2%;
+  font-size: 12px;
+  padding-top: 2%;
+}
+/*-------------- blog 5 begins -------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.blog_row5{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.blog_row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog_column15 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 190px;
+  border-right: 3px solid #777777;
+}  
+
+.blog_column15 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.blog_column51 #c11{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column51 pre{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  font-size: 13px;
+  margin-top: 0%;;
+}
+
+
+.blog_column51 #c21{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.blog_column51 i{
+  color: #777777;
+  margin-left: 2%;
+  font-size: 12px;
+  padding-top: 2%;
+}
+/*-------------------- BLOG ends here --------------------*/
+/*--------------------- hire me starts --------------------*/
+.hire h2{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 311%;
+  font-weight: bold;
+  font-family: "rajdhani";
+  margin-top: 1%;
+}
+
+
+.hire pre{
+  margin-left: 4%;
+  color: #777777;
+  font-family: roboto;
+  font-size: 87%;
+  margin-top: -3%; 
+}
+/*------------------------- heading ends ----------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.hire_row{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.hire_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hire_column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 190px;
+  border-right: 3px solid #777777;
+}  
+
+.hire_column1 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+
+.hire_column2 #c1{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.hire_column2 #p1{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  margin-top: 0%;
+}
+
+#h1 {
+  list-style: none;
+  margin-left: 24%;
+  color: #777777;
+  font-family: roboto
+}
+#h1  li:before {
+  content: '✓';
+}
+
+
+.hire_column2 #c2{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+/*------------------------------- first row ends ----------------*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.hire_row2{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.hire_row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hire_column11 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 190px;
+  border-right: 3px solid #777777;
+}  
+
+.hire_column11 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+
+
+.hire_column21 #c1{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.hire_column21 #p1{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  margin-top: 0%;
+}
+
+#h2 {
+  list-style: none;
+  margin-left: 24%;
+  color: #777777;
+  font-family: roboto;
+}
+#h2 li:before {
+  content: '✓';
+}
+
+
+.hire_column21 #c2{
+  color: #777777;
+  font-family: roboto;;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+/*------------------- row2 ends ----------------------------------------*/
+/*--------------------- row3 begins -------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.hire_row3{
+  margin-bottom: 0%;
+}
+/* Clear floats after the columns */
+.hire_row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hire_column12 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 156px;
+  border-right: 3px solid #777777;
+}  
+
+.hire_column12 img{
+  width: 240px;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: -2%;
+}
+
+.hire_column22 #c1{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.hire_column22 #p1{
+  color: #777777;
+  font-family: roboto;
+  margin-left: 28%;
+  margin-top: 0%;
+  margin-top: -0.8%;
+}
+
+#h3 {
+  list-style: none;
+  margin-left: 24%;
+  color: #777777;
+  font-family: roboto;
+
+}
+#h3 li:before {
+  content: '✓';
+}
+
+
+.hire_column22 #c2{
+  color: #777777;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 28%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+
+/*-------------- recomendation ---------------------------*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+.rec_row{
+  margin-top: -3%;
+}
+/* Clear floats after the columns */
+.rec_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rec h2{
+  font-size: 504%;
+  margin-left: 3%;
+  margin-top: 7%;
+  color: #777777;
+  font-family: "rajdhani";
+  font-weight: bold;
+}
+
+.mySlides {
+        top:800px;
+        color: white;
+        padding: 200px;
+        text-align: center;
+      }
+
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        position: absolute;
+        right: 0;
+      }
+
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+      }
+
+      /* The dot/bullet/indicator container */
+      .dot-container {
+          text-align: center;
+          margin-top: -15%;
+      }
+
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        color: white;
+        display: inline-block;
+      }
+
+      .picturedot
+      {
+        height: 300px;
+        width: 276px;
+        margin-left: -740px;
+        margin-top: -118px;
+        border-radius: 70%;
+        color: white;
+        display: inline-block;
+      }
+      .mySlides i{
+        border-radius: 60px;
+        font-size: 45px;
+        z-index: 5;
+        position: absolute;
+        margin-top: -140px;
+        margin-left: -104px;
+        color: white;
+      }
+      .mySlides i.fas{
+        background-color: dodgerblue;
+        border-radius: 60px;
+        box-shadow: 0px 0px 2px #888;
+        padding: 0.5em 0.6em;
+      }
+      .picturedot1
+      {
+        height: 300px;
+        width: 276px;
+        margin-left: -729px;
+        margin-top: -118px;
+        border-radius: 70%;
+        color: white;
+        display: inline-block;
+      }
+      .picturedot2
+      {
+        height: 300px;
+        width: 276px;
+        margin-left: -739px;
+        margin-top: -118px;
+        border-radius: 70%;
+        color: white;
+        display: inline-block;
+      }
+
+      /* Add a background color to the active dot/circle */
+      .active, .dot:hover {
+        background-color: cornflowerblue;
+      }
+
+      /* Add an italic font style to all quotes */
+      #q1 {font-family: roberto;
+        font-weight: bold;
+        color: #777777;
+        margin-left: 212px;
+        margin-top: -23%;
+        font-size: 24px;
+      }
+
+      #q2 {font-family: roberto;
+        font-weight: bold;
+        color: #777777;
+        margin-left: 212px;
+        margin-top: -23%;
+        font-size: 24px;
+        ;
+      }
+
+      #q3 {font-family: roberto;
+        font-weight: bold;
+        color: #777777;
+        margin-left: 212px;
+        margin-top: -23%;
+        font-size: 24px;
+      }
+
+
+      /* Add a blue color to the author */
+      .author {color: #777777;
+              font-family: "roberto";
+              font-weight: bold;
+              font-size: 24px;
+              margin-top: 6%;
+              margin-left: -121px
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*------------------ EDUCATION -----------------------------*/
+
+.ED h2{
+  margin-left: 4%;
+  color: #777777;
+  font-size: 380%;
+  font-weight: bold;
+  font-family: "rajdhani";
+  margin-top: 2%;
+}
+
+.ED pre{
+  margin-left: 4%;
+  color: #777777;
+  font-family: roboto;
+  font-size: 87%;
+  margin-top: -3%; 
+}
+/*------------------- first row ---------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+.ED_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ED_column1 {
+  float: left;
+  width: 35%;
+  padding: 17px;
+  height: 150px;
+  border-right: 2px solid #777777;
+  }  
+
+.ED_column1 #line1{
+  font-size: 13px;
+  margin-left: 51%;
+  color: #777777;
+  font-family: roboto;
+
+}
+
+.ED_column1 #line2{
+  font-size: 33px;
+  color: #777777;
+  font-family: roboto;
+  margin-top: -14px;
+  margin-left: 49%;
+}
+.ED_column1 hr{
+  width: 63%;
+  margin-left: 29%;
+  margin-top: -4%;
+}
+
+.ED_column1 #line3{
+  font-size: 21px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 44%;
+}
+
+
+.ED_column2 #ED1{
+  color: #777777;
+  font-family: roboto;
+  font-size: 95%;
+  margin-left: 37%;
+  padding-top: 2%;
+}
+
+.ED_column2 #ED2{
+  color: #777777;
+  font-family: roboto;
+  font-size: 110%;
+  margin-left: 37%;
+  margin-top: -1%;
+}
+
+#EDHR{
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+/*--------------------- column1 ends ----------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+.ED_row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ED_column11 {
+  float: left;
+  width: 35%;
+  padding: 17px;
+  height: 150px;
+  border-right: 2px solid #777777;
+  }  
+
+.ED_column11 #line1{
+  font-size: 13px;
+  margin-left: 51%;
+  color: #777777;
+  font-family: roboto;
+
+}
+
+.ED_column11 #line2{
+  font-size: 33px;
+  color: #777777;
+  font-family: roboto;
+  margin-top: -14px;
+  margin-left: 49%;
+}
+.ED_column11 hr{
+  width: 27%;
+  margin-left: 66%;
+  margin-top: -4%;
+}
+
+.ED_column11 #line3{
+  font-size: 21px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 44%;
+}
+#EDHR1{
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 3%;
+}
+
+/*---------------------------- col 2 ends --------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+.ED_row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ED_row2{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.ED_column12 {
+  float: left;
+  width: 35%;
+  padding: 1px;
+  height: 150px;
+  border-right: 2px solid #777777;
+  }  
+
+.ED_column12 #line1{
+  font-size: 13px;
+  margin-left: 51%;
+  color: #777777;
+  font-family: roboto;
+
+}
+
+.ED_column12 #line2{
+  font-size: 33px;
+  color: #777777;
+  font-family: roboto;
+  margin-top: -14px;
+  margin-left: 49%;
+}
+.ED_column12 hr{
+  width: 27%;
+  margin-left: 66%;
+  margin-top: -4%;
+}
+
+.ED_column12 #line3{
+  font-size: 21px;
+  color: #777777;
+  font-family: roboto;
+  margin-left: 44%;
+}
+
+/*-------------------- login -------------------------*/
+./*login{
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 6%;
+  margin-left: 29%;
+  border: 2px solid black;
+  width: 45%;
+  border-radius: 5px;
+  background-color: ghostwhite;
+  height: 30%;
+}
+
+.login label{
+  margin-left: 2%;
+  color: #777777;
+  font-family: roboto;
+}
+.adjust{
+  margin-top: 2%;
+}
+.login input{
+  margin-left: 2%;
+}
+
+.login #log {
+  margin-left: 75%;
+  margin-top: 3%;
+}
+
+.login #log input{
+  background: linear-gradient(#3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200%;
+  padding: 0px 35px;
+  margin-left: -17%;
+  color: #222222;
+  
+}*/
+
+/*----------------------- contact -----------------------*/
+.contact{
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 6%;
+  margin-left: 29%;
+  border: 2px solid black;
+  width: 45%;
+  border-radius: 5px;
+  background-color: ghostwhite;
+  height: 37%;
+}
+
+.contact label{
+  margin-left: 2%;
+  color: #777777;
+  font-family: roboto;
+}
+.adjust{
+  margin-top: 2%;
+}
+.contact input{
+  margin-left: 2%;
+}
+
+.contact #log {
+  margin-left: 75%;
+  margin-top: 3%;
+}
+
+.contact #log input{
+  background: linear-gradient(#3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200%;
+  padding: 0px 35px;
+  margin-left: -17%;
+  color: #222222;
+  
+}
+
+
+
+
+/*---------------------- sign up ------------------------*/
+
+/*.signup{
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 6%;
+  margin-left: 29%;
+  border: 2px solid black;
+  width: 45%;
+  border-radius: 5px;
+  background-color: ghostwhite;
+  height: 55%;
+}
+
+.signup label{
+  margin-left: 2%;
+  color: #777777;
+}
+.sign_adjust{
+  margin-top: 2%;
+}
+.signup input{
+  margin-left: 2%;
+}
+
+.signup #log {
+  margin-left: 70%;
+  margin-top: 4%;
+
+}
+
+.signup #log input{
+  background: linear-gradient(#3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200%;
+  padding: 0px 35px;
+  margin-left: -17%;
+  color: #222222;
+}*/
+/*--------------------------------- footer --------------------------*/
+#my_foot footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -4%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+/*-------------------------------- shubham shankar-----------------------*/
+nav.name1{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold; 
+}
+
+nav.name1 ul{
+  float: left;
+}
+
+nav.name1 li{
+  right:30px;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+
+/*--------------------------- nav bar : nav icon ---------------------------*/
+
+nav.nav_bar1 ul{
+  float: right;
+}
+
+nav.nav_bar1 ul li{
+  left:0px;
+  display: inline-block;
+  margin-right: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+
+nav.nav_bar1 li:hover{
+  color:yellow;
+}
+/*------------------- end footer home page ------------*/
+/*-----------------  footer my skills --------------*/
+
+#my_foot1 footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot1 footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot1 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+/*--------------- footer for my skill end ----------------*/
+
+/*-----------------  footer for recomendation begin --------------*/
+
+#my_foot2 footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot2 footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -4%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot2 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+
+/*---------------------- footer for recommendation end ---------------*/
+
+/*-------------------------- footer blog begin -------------------------*/
+
+#my_foot3 footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot3 footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 9%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 41%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot3 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+
+
+
+/*----------------- blog ends here ---------------------------------*/
+
+
+/*---------------------- log in begins here --------------------------*/
+#my_foot4 footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot4 footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -4.5%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot4 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+
+
+
+/*------------------ log in ends here ---------------------------*/
+
+
+/*--------------------- sign up begins ---------------------------*/
+
+#my_foot5 footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot5 footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -4%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot6 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+
+/*---------------------------- hire me footer begins ------------------------*/
+
+#my_foot6 footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot6 footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 0%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 98%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot6 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+/*------------------------- end ---------------------------------*/
+/*----------------------- work footer ----------------------------------*/
+
+#wrapper #my_foot7 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+
+/*---------------------------- hire me footer begins ------------------------*/
+
+#my_foot7 footer::after {          /* sometime when we increase the list element 
+                the header will exceed certain pixel and give blank
+                so to remove distortion we use header :: after*/
+  content: '';
+  display: table;
+  clear: both;
+}
+/*----------------- header section : name + nav icon-------------------------*/
+#my_foot7 footer {         /* this will create the entire header*/
+  padding: 0;
+  border: 0;
+  background: #000033;
+  font-family: 'Roboto';
+  color: #777777;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 0.70em;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -3%;
+  font-style: italic;
+}
+
+/*--------------------------- nav icon ----------------------------*/
+#wrapper #my_foot7 nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto';
+  color: #777777;
+  font-style: bold;
+}
+
+
+/*----------- try --------------*/
+
+
+#signup{
+   width: 80%;
+  height: 100%;
+  display: grid;
+  background-color: rgba(0,0,0,0.7); 
+  box-sizing: border-box;
+  position: absolute;
+  display: grid;
+  top:3px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.scontent{
+  width:360px;
+  height:auto;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  padding: 3%;
+}
+
+#sclose{
+  transform: rotate(45deg);
+  color: #777777;
+  position: absolute;
+  right: 9%;
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+
+#sclose:focus , #sclose:hover{
+  cursor: pointer;
+  color: black;
+}
+
+ #Slabel{
+  color: #777777;
+  display: block;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+ #Susername label {
+  color: #777777;
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 0%; 
+  font-weight: bold;
+}
+
+#Spassword label{
+  color: #777777;
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 0%; 
+  font-weight: bold;
+}
+
+#Susername{
+  padding-bottom: 3%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+#Spassword{
+  padding-bottom: 3%;
+  box-sizing: border-box;
+  display: block;
+}
+
+#signButton{
+ height: 30%;
+ text-align: right;
+ margin-top: 7%;
+ box-sizing: border-box; 
+ 
+}
+
+
+
+#Susername input{
+  width: 95%;
+  height: 22px;
+}
+
+#Spassword input{
+  width: 95%;
+  height: 22px;
+}
+
+
+#Scontent #signButton , button{
+ 
+  float: none;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff
+100%); 
+  background-size: 200% auto; 
+  padding: 0px 35px; 
+  color: #222222;
+  font-weight:bold;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*-------------------------login pop up ------------------------------*/
+
+
+
+#login,#contact{
+  
+  width: 80%;
+  height: 100%;
+  display: grid;
+  background-color: rgba(0,0,0,0.7); 
+  box-sizing: border-box;
+  position: absolute;
+  display: grid;
+  top:3px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+
+}
+
+
+.lcontent {
+  width:330px;
+  height:auto;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  padding: 3%;
+}
+
+.c_content {
+  width:330px;
+  height:auto;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  padding: 3%;
+}
+
+#l_label label{
+  color: #777777;
+  display: block;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+
+
+#close{
+  transform: rotate(45deg);
+  color: #777777;
+  position: absolute;
+  right: 9%;
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+
+
+
+#close:focus , #close:hover{
+  cursor: pointer;
+  color: black;
+}
+
+
+ #label{
+  color: #777777;
+  display: block;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+#logusername {
+  padding-bottom: 3%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+#logpassword{
+  padding-bottom: 3%;
+  box-sizing: border-box;
+  display: block;
+}
+
+#logusername label {
+  color: #777777;
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 0%; 
+  font-weight: bold;
+}
+
+#logpassword label{
+  color: #777777;
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 0%; 
+  font-weight: bold;
+}
+
+
+#logusername input {
+  width: 95%;
+  height: 22px;
+}
+
+
+ #logpassword input{
+  width: 95%;
+  height: 22px;
+}
+
+#logbutton{
+  height: 13%;
+  text-align: right;
+  margin-top: 3%;
+  box-sizing: border-box;
+ 
+}
+
+
+.lcontent #logbutton , button{
+ 
+  float: none;
+  background-size: 200% auto; 
+  padding: 0px 1px; 
+  color: #222222;
+  font-weight:bold;
+  margin-left: 3%;
+  cursor: pointer;
+  padding: 1%;
+}
+.c_content #logbutton , button{
+ 
+  float: none;
+  background-size: 200% auto; 
+  padding: 0px 1px; 
+  color: #222222;
+  font-weight:bold;
+  margin-left: 3%;
+  cursor: pointer;
+  padding: 1%;
+}
+
+/*------------------------ contact me pop up ------------------*/
+
+
+#contact{
+  
+  width: 80%;
+  height: 100%;
+  display: grid;
+  background-color: rgba(0,0,0,0.7); 
+  box-sizing: border-box;
+  position: absolute;
+  display: grid;
+  top:3px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+
+}
+
+
+
+.c_content {
+  width:330px;
+  height:278px;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  padding: 3%;
+}
+
+
+#c_close{
+  transform: rotate(45deg);
+  color: #777777;
+  position: absolute;
+  right: 9%;
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+
+
+
+#c_close:focus , #c_close:hover{
+  cursor: pointer;
+  color: black;
+}
+
+
+#c_label{
+  color: #777777;
+  display: block;
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+#c_logusername {
+  padding-bottom: 3%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+#c_logpassword{
+  padding-bottom: 3%;
+  box-sizing: border-box;
+  display: block;
+}
+
+#c_logusername label {
+  color: #777777;
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 0%; 
+  font-weight: bold;
+}
+
+#c_logpassword label{
+  color: #777777;
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 0%; 
+  font-weight: bold;
+}
+
+
+#c_logusername input {
+  width: 95%;
+  height: 22px;
+}
+
+
+ #c_logpassword input{
+  width: 95%;
+  height: 22px;
+}
+
+#c_logbutton{
+  height: 13%;
+  text-align: right;
+  margin-top: 3%;
+  box-sizing: border-box;
+ 
+}
+
+
+
+.c_content #c_logbutton , button{
+ 
+  float: none;
+  background-size: 200% auto; 
+  padding: 0px 1px; 
+  color: #222222;
+  font-weight:bold;
+  margin-left: 3%;
+  cursor: pointer;
+  padding: 1%;
+}
+
+/*------------------------------ admin page ----------------------*/
+.hide{
+  display: none;
+}
+
+#FORM #highlight{
+  font-weight: bold;
+  font-size: xx-large;
+  color: #777777;
+  display: block;
+  margin-left: 30%;
+}
+
+#label label{
+  color: #777777;
+  display: block;
+  padding-bottom: 5%;
+  font-weight: bold;
+  float: right;
+}
+
+.admin_work_exp{
+  margin-top: 1%;
+}
+.admin_work_exp label{
+  color: #777777;
+  padding-top: 0%;
+  padding-bottom: 0%; 
+  font-weight: bold;
+}
+
+.admin_work_exp button{
+  float: none;
+  background-size: 200% auto; 
+  padding: 0px 1px; 
+  color: #222222;
+  font-weight:bold;
+  margin-left: -11%;
+  margin-top: 4%;
+  cursor: pointer;
+  padding: 1%;
+  display: block;
+}
+
+
+#update_hire_img img{
+
+  height:10%;
+  width: 4%;
+
+}
+
+#my_foot_admin footer {         /* this will create the entire header*/
+      padding: 0;
+    border: 0;
+    background: #000033;
+    font-family: 'Roboto';
+    color: #777777;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 0.70em;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 348%;
+    font-style: italic;
+}
+
+/*---------------------------test --------------------*/
+
+.addelement{
+  display: grid;
+}
+
+.addelement .add_element{
+  display: grid;
+  grid-template-columns: repeat(3,33.33%);
+  box-sizing: border-box;
+}
+
+.addelement1{
+  display: grid;
+}
+
+.addelement1 .add_element1{
+  display: grid;
+  grid-template-columns: repeat(3,33.33%);
+  box-sizing: border-box;
+}
+
+
+
+
+
+

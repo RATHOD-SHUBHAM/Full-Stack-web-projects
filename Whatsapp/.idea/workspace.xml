@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a165b055-5a07-42ef-b2f3-bc5fe82657bc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jQOUm9FkgzAfg0mAX3xXZpoTWV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a165b055-5a07-42ef-b2f3-bc5fe82657bc" name="Default Changelist" comment="" />
+      <created>1603732866605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603732866605</updated>
+      <workItem from="1603732867676" duration="6622000" />
+      <workItem from="1603746749394" duration="368000" />
+      <workItem from="1603926294111" duration="9768000" />
+      <workItem from="1603948171090" duration="112000" />
+      <workItem from="1603948535456" duration="560000" />
+      <workItem from="1603949394545" duration="7000" />
+      <workItem from="1603949544516" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="478" y="327" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603741155269">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="478" y="327" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1603741155269" />
+    <state x="418" y="205" width="604" height="490" key="find.popup" timestamp="1603741221727">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="418" y="205" width="604" height="490" key="find.popup/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1603741221727" />
+    <state x="385" y="233" key="run.anything.popup" timestamp="1603746373052">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="221" key="run.anything.popup/1440.0.1048.770/0.0.1440.854@0.0.1440.854" timestamp="1603744070341" />
+    <state x="385" y="233" key="run.anything.popup/1440.0.1048.770/0.0.1440.900@0.0.1440.900" timestamp="1603746373052" />
+  </component>
+</project>

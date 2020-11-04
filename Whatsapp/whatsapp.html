@@ -1,0 +1,55 @@
+<!--
+w3school >> more>> icons.
+Font style:
+https://www.w3schools.com/icons/fontawesome5_intro.asp
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>whatsapp login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <link rel="stylesheet" type="text/css" href="css/style.css">-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+    <img class="wave" src="img/wave.png">
+    <div class = "container">
+        <div class="img">
+            <img src="img/connection.svg">
+        </div>
+        <div class="login-content">
+            <form action="whatsapp.html"  method="post">
+                <img src="img/avatar.svg">
+                <h2 class="title">Welcome</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Phone Number</h5>
+                        <input type="test" id="phonenum" name="num" class="input" autocomplete="off" pattern=".{10,}" required>
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Text</h5>
+                        <input type="textarea" id="message"  class="input" autocomplete="off" >
+                    </div>
+                </div>
+                <input type="submit" class="btn" value="Send" onclick="return submitpage(this)">
+            </form>
+<!--            <footer> Developed by Shubham Shankar. </footer>-->
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
