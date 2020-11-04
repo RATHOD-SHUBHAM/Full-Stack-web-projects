@@ -15,4 +15,4 @@
       By default WhatsApp does not allow you to do that. 
       So i tought why not build a webapp that allows you to smoothly slide into whatsapp without and send messages or documents wihtout having to save their number into your contact.
       >> Just type in the number , smash send button and boom you are into whatsapp/
-   ## link : http://shankarshubham.uta.cloud/whatsapp/whatsapp.html
+   ## Link : http://shankarshubham.uta.cloud/whatsapp/whatsapp.html
