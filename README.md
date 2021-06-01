@@ -1,5 +1,5 @@
 # WebProjects
-      All my Front end code will be available here.
+      All my Web application available here.
 ### Link to my Portfolio: https://shubham-shankar.netlify.app
       
 ## 1] Web Portfolio
@@ -34,6 +34,5 @@ An online marketplace application with seller & customer accounts, Different cat
   - Responsive front-end design is done using BootStrap 5. 
   - Node.Js & ExpressJs is used for backend (API), 
   - MongoDB as database.
-  - POSTMAN was used to test API's
-  - 
+  - POSTMAN was used to test API's.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
