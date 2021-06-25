@@ -5,6 +5,9 @@
 
 <h3 align = "center"> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). </h3>
 
+
+----- 
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -34,4 +37,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Deployment
 
 This section has been deployed in here: [Netlify](https://app.netlify.com/teams/shubham-uta/overview)
+
+-------
 
