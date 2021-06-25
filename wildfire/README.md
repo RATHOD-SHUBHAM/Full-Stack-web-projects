@@ -3,7 +3,7 @@
 <img width="1225" alt="Screen Shot 2021-06-25 at 9 16 45 AM" src="https://user-images.githubusercontent.com/58945964/123438204-163f7400-d596-11eb-8531-6a4c8495b8ea.png">
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align = "center"> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). </h2>
 
 ## Available Scripts
 
