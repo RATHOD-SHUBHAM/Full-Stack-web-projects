@@ -42,3 +42,9 @@ An online marketplace application with seller & customer accounts, Different cat
 
 A fun beginner react project that cover topics such as Components and Props , State and Lifecycle, Conditional Rendering and much more.
 
+<img width="1225" alt="Screen Shot 2021-06-25 at 9 16 45 AM" src="https://user-images.githubusercontent.com/58945964/123440491-77684700-d598-11eb-8543-f612eb513598.png">
+
+## Description
+ - NASA OPEN API is fetched using fetch and await.
+ - Google MAP API is required. Get your credentials from google cloud and add it in place of key.
+ - [DEMO](https://beginner-wild-fire-tracker.netlify.app/)
