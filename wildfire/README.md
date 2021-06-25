@@ -40,3 +40,7 @@ This section has been deployed in here: [Netlify](https://app.netlify.com/teams/
 
 -------
 
+1. Project user [NASA OPEN API](https://eonet.sci.gsfc.nasa.gov/docs/v2.1) to track natural events. 
+2. [google-map-react](https://www.npmjs.com/package/google-map-react) is used to create map.
+3. [iconify](https://www.npmjs.com/package/@iconify/icons-mdi) is used for small fire like pointer.
+
