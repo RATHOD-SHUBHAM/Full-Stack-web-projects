@@ -48,3 +48,20 @@ A fun beginner react project that cover topics such as Components and Props , St
  - NASA OPEN API is fetched using fetch and await.
  - Google MAP API is required. Get your credentials from google cloud and add it in place of key.
  - [DEMO](https://beginner-wild-fire-tracker.netlify.app/)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 5] Sms Application Using Twilio
+### React.js, Express.js App
+
+A fun beginner react project to play aroud with Twilio API.
+
+<img width="1225" alt="Screen Shot 2021-06-25 at 9 16 45 AM" src="https://user-images.githubusercontent.com/58945964/123440491-77684700-d598-11eb-8543-f612eb513598.png">
+
+## Description
+ - First create Twilio account and get the SID and Auth Token.
+ - Create React App.
+ - Install Express, Cors, Twilio Packages.
+ - Create a functional module to write server code.
+ - Start both the server on port 3000 (react) and 4000 (express).
+
