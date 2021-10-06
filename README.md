@@ -56,7 +56,7 @@ A fun beginner react project that cover topics such as Components and Props , St
 
 A fun beginner react project to play aroud with Twilio API.
 
-<img width="1225" alt="Screen Shot 2021-06-25 at 9 16 45 AM" src="https://user-images.githubusercontent.com/58945964/123440491-77684700-d598-11eb-8543-f612eb513598.png">
+<img width="737" alt="Screen Shot 2021-10-05 at 11 21 27 PM" src="https://user-images.githubusercontent.com/58945964/136140272-d64bfd63-f14c-434c-8423-465748ace989.png">
 
 ## Description
  - First create Twilio account and get the SID and Auth Token.
