@@ -1,8 +1,10 @@
 # No Contact Whatsapp.
 Send messages on whatsapp without having to store their number in your contact list.
 
-* There are time when we want to send a whatsapp message to someone but we dont want to save their contact in our phone list. 
-* This web app solves that problem, It allows you to send a message to number without having to save it on your phone.
-
+  * Have you ever been in a situation where you wanted to send message/document to someone on WhatsApp and did not want save their contact??????
+  * By default WhatsApp does not allow you to do that. 
+  * So i tought why not build a webapp that allows you to smoothly slide into whatsapp without and send messages or documents wihtout having to save their number into your contact.
+  
+  >> Just type in the number , smash send button and boom you are into whatsapp/
 
 ## http://shankarshubham.uta.cloud/whatsapp/whatsapp.html
